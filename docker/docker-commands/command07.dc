@@ -1,0 +1,1 @@
+docker run -d --name 02images -p 3000:80 513f9a9d8748
