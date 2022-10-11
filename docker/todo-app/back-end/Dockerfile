@@ -1,9 +1,9 @@
-FROM node:16
+FROM node:14
+
+EXPOSE 3001
 
 ADD node_modules.tar.gz .
 
 COPY . .
-
-EXPOSE 3001
 
 CMD [ "npm", "start" ]
