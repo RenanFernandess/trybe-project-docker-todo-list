@@ -4,7 +4,8 @@ WORKDIR /tests
 
 ADD node_modules.tar.gz .
 
-COPY *.json .
+COPY package-lock.json .
+COPY package.json .
 COPY ./e2e ./e2e
 COPY jest.config.js .
 
